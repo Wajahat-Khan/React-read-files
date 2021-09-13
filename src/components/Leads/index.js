@@ -142,7 +142,7 @@ class LeadsPage extends React.Component {
         </Row>
         <Row className="actions">
           <Button variant="secondary" onClick={this.postiveLead}>POSITIVELY REPLY</Button>
-          <Button variant="secondary" onClick={this.neutralLead}>NEUTRAL REPLY</Button>
+          <Button variant="secondary" onClick={this.neutralLead} style={{marginLeft:"-50px"}}>NEUTRAL REPLY</Button>
           <Button variant="secondary" onClick={this.NotLead}>NOT A LEAD</Button>
         </Row>
         <Row>
