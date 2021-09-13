@@ -1,0 +1,24 @@
+.leads-container{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.actions{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.form-element{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.email-text{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.reset-btn{
+    margin-top: 30px;
+    width: 50%;
+}
